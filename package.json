@@ -13,7 +13,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
+    "start": "serve -s out -l 3000",
     "lint": "biome check .",
     "type-check": "tsc --noEmit",
     "format": "biome format --write . && prettier --write \"**/*.{md,css,scss}\"",
@@ -22,7 +22,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b master",
+    "deploy": "gh-pages -d out -b master", 
     "analyze": "ANALYZE=true npm run build"
   },
   "dependencies": {
