@@ -20,7 +20,7 @@ const Cell: React.FC<CellProps> = ({ data }) => (
           {dayjs(data.date).format('MMMM, YYYY')}
         </time>
       </header>
-      <a href={data.link} className="image">
+      <a href={data.url} className="image">
         <Image src={data.image} alt={data.title} width={600} height={400} />
       </a>
       <div className="description">

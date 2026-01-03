@@ -1,9 +1,9 @@
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons/faWhatsapp';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons/faWhatsapp';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 
 export interface ContactItem {
   link: string;
