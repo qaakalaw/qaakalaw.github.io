@@ -31,6 +31,11 @@ export default function ResumePage() {
         <div className="title">
           <h2>Resume</h2>
           <div className="link-container">
+            <h4>
+              <a href="https://drive.google.com/file/d/1CnV0sess6fGeiTHe1kGRMJ6mEwcs1Rl0/view">
+                download
+              </a>
+            </h4>
             {sections.map((section) => (
               <h4 key={section.id}>
                 <a href={`#${section.id}`}>{section.name}</a>
