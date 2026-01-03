@@ -22,7 +22,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out -b master", 
+    "deploy": "gh-pages -d out -b master",
     "analyze": "ANALYZE=true npm run build"
   },
   "dependencies": {
