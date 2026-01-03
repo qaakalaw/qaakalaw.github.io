@@ -11,9 +11,19 @@ const validateText = (text: string): boolean => {
 };
 
 const messages = [
-  'hi',
+  'kamusta',
+  'konnichiwa',
+  'annyeonghaseyo',
+  'nǐ hǎo',
+  'ciao',
   'hello',
+  'hi',
+  'hallo',
   'hola',
+  'olá',
+  'bonjour',
+  'marhaba',
+  'privyet',
   'you-can-email-me-at-literally-anything! Really',
   'well, not anything. But most things',
   'like-this',
@@ -25,7 +35,7 @@ const messages = [
   'help',
   'admin',
   'or-I-really-like-your-website',
-  'thanks',
+  'thanks 😊',
 ];
 
 const useInterval = (callback: () => void, delay: number | null) => {

@@ -9,7 +9,7 @@ import PageWrapper from '../components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Projects',
-  description: "Learn about Michael D'Angelo's projects.",
+  description: "Learn about Angelo Aaron Kalaw's projects.",
 };
 
 export default function ProjectsPage() {
@@ -19,9 +19,9 @@ export default function ProjectsPage() {
         <header>
           <div className="title">
             <h2>
-              <Link href="/projects">Projects</Link>
+              <Link href="/projects">Project</Link>
             </h2>
-            <p>A selection of projects that I&apos;m not too ashamed of</p>
+            <p>A selection of project that I&apos;m proud of</p>
           </div>
         </header>
         {data.map((project) => (

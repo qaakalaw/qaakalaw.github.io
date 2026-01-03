@@ -5,8 +5,7 @@ import React from 'react';
 import PageWrapper from './components/PageWrapper';
 
 export const metadata: Metadata = {
-  description:
-    'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
+  description: 'N/A.',
 };
 
 export default function HomePage() {
@@ -19,14 +18,14 @@ export default function HomePage() {
               <Link href="/about">About this site</Link>
             </h2>
             <p>
-              A beautiful, responsive, statically-generated, react application
-              written with modern TypeScript.
+              A visually appealing and responsive React application written with
+              modern TypeScript.
             </p>
           </div>
         </header>
         <p>
           {' '}
-          Welcome to my website. Please feel free to read more{' '}
+          Welcome to my personal site! Feel free to review more{' '}
           <Link href="/about">about me</Link>, or you can check out my{' '}
           <Link href="/resume">resume</Link>,{' '}
           <Link href="/projects">projects</Link>, view{' '}
@@ -36,7 +35,7 @@ export default function HomePage() {
         <p>
           {' '}
           Source available{' '}
-          <a href="https://github.com/mldangelo/personal-site">here</a>.
+          <a href="https://github.com/qaakalaw/qaakalaw.github.io">here</a>.
         </p>
       </article>
     </PageWrapper>

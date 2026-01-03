@@ -22,36 +22,27 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: "Michael D'Angelo",
-    template: "%s | Michael D'Angelo",
+    default: 'Angelo Aaron Kalaw',
+    template: '%s | Angelo Aaron Kalaw',
   },
-  description:
-    'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
-  keywords: [
-    "Michael D'Angelo",
-    'LLM security',
-    'machine learning',
-    'CTO',
-    'startup founder',
-    'YC',
-  ],
-  authors: [{ name: "Michael D'Angelo" }],
-  creator: "Michael D'Angelo",
-  metadataBase: new URL('https://mldangelo.com'),
+  description: 'N/A.',
+  keywords: ['Angelo Aaron Kalaw'],
+  authors: [{ name: 'Angelo Aaron Kalaw' }],
+  creator: 'Angelo Aaron Kalaw',
+  metadataBase: new URL('https://qakaalaw.github.io'),
   openGraph: {
     type: 'website',
-    locale: 'en_US',
-    url: 'https://mldangelo.com',
-    siteName: "Michael D'Angelo",
-    title: "Michael D'Angelo",
-    description:
-      'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
+    locale: 'en_PH',
+    url: 'https://qaakalaw.github.io',
+    siteName: 'Angelo Aaron Kalaw',
+    title: 'Angelo Aaron Kalaw',
+    description: 'N/A.',
     images: [
       {
         url: '/images/me.jpg',
         width: 1200,
         height: 630,
-        alt: "Michael D'Angelo",
+        alt: 'Angelo Aaron Kalaw',
       },
     ],
   },
