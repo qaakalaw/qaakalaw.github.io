@@ -11,10 +11,10 @@ export interface Project {
 const data: Project[] = [
   {
     title: 'Personal Site',
-    subtitle: '2024 Last Update',
+    subtitle: '2026 Last Update',
     image: '/images/projects/personal-site.png',
-    date: '2024-07-30',
-    desc: 'A visually appealing and responsive React application built with modern JavaScript. ',
+    date: '2026-01-03',
+    desc: 'A visually appealing and responsive React application built with modern TypeScript. ',
     url: 'https://qaakalaw.github.io',
   },
 ];
