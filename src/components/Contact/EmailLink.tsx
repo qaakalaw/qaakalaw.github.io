@@ -153,7 +153,7 @@ const EmailLink: React.FC<EmailLinkProps> = ({ loopMessage = false }) => {
             : ''
         }
       >
-        <span>angeloaaronkalaw@gmail.com </span>
+        <span>qaakalaw@gmail.com </span>
         <span>{state.message}</span>
       </a>
     </div>

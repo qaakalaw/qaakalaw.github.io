@@ -33,7 +33,7 @@ const data: ContactItem[] = [
     icon: faWhatsapp,
   },
   {
-    link: 'mailto:angeloaaronkalaw@gmail.com',
+    link: 'mailto:qaakalaw@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },
