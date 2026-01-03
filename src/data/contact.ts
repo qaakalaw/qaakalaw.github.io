@@ -13,21 +13,6 @@ export interface ContactItem {
 
 const data: ContactItem[] = [
   {
-    link: 'mailto:angeloaaronkalaw@gmail.com',
-    label: 'Email',
-    icon: faEnvelope,
-  },
-  {
-    link: 'https://api.whatsapp.com/send?phone=09085655001',
-    label: 'Github',
-    icon: faWhatsapp,
-  },
-  {
-    link: 'https://www.linkedin.com/in/angeloaaronkalaw',
-    label: 'LinkedIn',
-    icon: faLinkedinIn,
-  },
-  {
     link: 'https://www.facebook.com/angeloaaronkalaw',
     label: 'Facebook',
     icon: faFacebookF,
@@ -36,6 +21,21 @@ const data: ContactItem[] = [
     link: 'https://github.com/qaakalaw',
     label: 'Github',
     icon: faGithub,
+  },
+  {
+    link: 'https://www.linkedin.com/in/angeloaaronkalaw',
+    label: 'LinkedIn',
+    icon: faLinkedinIn,
+  },
+  {
+    link: 'https://api.whatsapp.com/send?phone=09085655001',
+    label: 'WhatsApp',
+    icon: faWhatsapp,
+  },
+  {
+    link: 'mailto:angeloaaronkalaw@gmail.com',
+    label: 'Email',
+    icon: faEnvelope,
   },
 ];
 
