@@ -15,7 +15,7 @@ const data: Project[] = [
     image: '/images/projects/personal-site.png',
     date: '2024-07-30',
     desc: 'A visually appealing and responsive React application built with modern JavaScript. ',
-    url: 'https://aakalaw.github.io',
+    url: 'https://qaakalaw.github.io',
   },
 ];
 

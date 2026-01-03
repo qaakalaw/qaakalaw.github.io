@@ -42,8 +42,31 @@ const data: StatData[] = [
     format: (x: unknown) => dayjs(x as string).format('MMMM DD, YYYY'),
   },
   {
+    /*# Define the root directory
+$rootDir = "."
+
+# Get all .ts files recursively, excluding unwanted paths
+$files = Get-ChildItem -Path $rootDir -Recurse -Filter *.ts | Where-Object {
+    $_.FullName -notmatch '\.min\.ts$' -and
+    $_.FullName -notmatch '\\node_modules\\' -and
+    $_.FullName -notmatch '\\\.git\\' -and
+    $_.FullName -notmatch '\.json$'
+}
+
+# Initialize total line count
+$totalLines = 0
+
+# Count lines for each file
+foreach ($file in $files) {
+    $lineCount = (Get-Content -Path $file.FullName | Measure-Object -Line).Lines
+    $totalLines += $lineCount
+}
+
+# Output total
+$totalLines
+*/
     label: 'Lines of TypeScript powering this website',
-    value: '2272',
+    value: '935',
     link: 'https://github.com/qaakalaw/qaakalaw.github.io/graphs/contributors',
   },
 ];
