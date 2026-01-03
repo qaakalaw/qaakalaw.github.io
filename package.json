@@ -13,7 +13,6 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "serve -s out -l 3000",
     "lint": "biome check .",
     "type-check": "tsc --noEmit",
     "format": "biome format --write . && prettier --write \"**/*.{md,css,scss}\"",
@@ -22,8 +21,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out -b master",
-    "analyze": "ANALYZE=true npm run build"
+    "analyze": "cross-env ANALYZE=true npm run build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
@@ -48,6 +46,7 @@
     "@types/node": "^25.0.3",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
+    "cross-env": "^10.1.0",
     "gh-pages": "^6.1.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^30.2.0",
