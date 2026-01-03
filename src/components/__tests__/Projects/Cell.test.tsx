@@ -11,6 +11,7 @@ describe('Cell', () => {
     date: '2023-01-01',
     desc: 'This is a test project description',
     link: 'https://example.com',
+    url: 'https://example.com',
   };
 
   it('renders project title with link', () => {
