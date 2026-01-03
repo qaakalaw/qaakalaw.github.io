@@ -149,12 +149,12 @@ const EmailLink: React.FC<EmailLinkProps> = ({ loopMessage = false }) => {
       <a
         href={
           validateText(state.message)
-            ? `mailto:${state.message}@mldangelo.com`
+            ? `mailto:${state.message}angeloaaronkalaw@gmail.com`
             : ''
         }
       >
+        <span>angeloaaronkalaw@gmail.com </span>
         <span>{state.message}</span>
-        <span>@mldangelo.com</span>
       </a>
     </div>
   );

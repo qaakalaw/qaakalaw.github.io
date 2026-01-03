@@ -24,7 +24,10 @@ export default function ContactPage() {
           </div>
         </header>
         <div className="email-at">
-          <p>Feel free to get in touch. You can email me at:</p>
+          <p>
+            Feel free to reach out and send me a message if you need any
+            assistance. I&apos;ll be happy to help.
+          </p>
           <EmailLink />
         </div>
         <ContactIcons />
